@@ -10,4 +10,4 @@ RUN corepack enable
 FROM nginx:alpine-slim
 
 COPY ./config/nginx/default.conf /etc/nginx/conf.d/default.conf
-COPY ./www /usr/share/nginx/html
+COPY --from=build /app/docs/.output/public /usr/share/nginx/html
