@@ -1,7 +1,3 @@
-## PolicyFort.io
-
-This is the website for policyfort.io.
-
 ### Deployment
 
 You can deploy this website using GitHub Pages:
