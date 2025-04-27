@@ -26,3 +26,7 @@ You can deploy this website using GitHub Pages:
 
 4. **Custom Domain (Optional)**
    - If you want to use a custom domain, add your domain in the Pages settings and create a `CNAME` file in your repo with your domain name.
+
+##### Kamal Deployment
+
+This is currently configured but not working.
